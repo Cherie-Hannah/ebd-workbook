@@ -1,16 +1,50 @@
+/* Checkpoint B — Hana's styling */
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   background-color: #f5f7fa;
   color: #1f2933;
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  margin: 0 0 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #1f2933;
+}
+
+#select {
+  font: inherit;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#select:hover {
+  background-color: #1e40af;
+}
+
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
 }
 
 .goods-item {
-  padding: 10px 14px;
+  list-style: none;
+  padding: 16px;
+  min-width: 180px;
   color: #1f2933;
   background-color: #ffffff;
-  border-radius: 6px;
-  margin-bottom: 8px;
-  list-style: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  font-weight: 600;
 }
