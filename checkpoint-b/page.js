@@ -28,5 +28,3 @@ export function start() {
   });
 }
 
-// Run it when the page loads.
-start();
